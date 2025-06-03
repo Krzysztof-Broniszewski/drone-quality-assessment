@@ -1,0 +1,16 @@
+# Środowisko Conda
+env: droneai
+
+# Python version
+python: 3.11
+
+# Kluczowe biblioteki
+torch: 2.6.0+cu118
+opencv-python
+tqdm
+matplotlib
+pandas
+
+# Uwagi
+Projekt do ekstrakcji klatek z wideo i oceny jakości zdjęć z drona.
+Używany w VSCode z GPU (RTX 3090).

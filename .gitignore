@@ -1,3 +1,8 @@
+# Wyklucz wideo i klatki
+data/videos/
+data/frames/
+
+
 "data/" 
 "results/" 
 "__pycache__/" 
