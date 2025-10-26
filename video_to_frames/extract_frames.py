@@ -12,7 +12,7 @@ if str(project_root) not in sys.path:
 
 from tools.naming import build_frame_name, slugify
 
-def extract_frames_with_time(video_path: Path, out_root: Path, step_sec: float = 5.0) -> Path:
+def extract_frames_with_time(video_path: Path, out_root: Path, step_sec: float = 2.0) -> Path:
     video_path = Path(video_path).resolve()
     out_dir = out_root / slugify(video_path.stem)
     out_dir.mkdir(parents=True, exist_ok=True)
