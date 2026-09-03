@@ -96,11 +96,11 @@ numpy
 matplotlib
 tqdm
 
-## 🖼 Przykładowe wyniki działania
+## 🖼 Example Results
 
-### Najlepsze klatki z nagrania ✨
+### Best Frames from the Video ✨
 ![Top frames preview](top_frames_preview.png)
 
-### Jakość w czasie nagrania
+### Video Quality Over Time
 ![MOS timeline preview](mos_timeline_preview.png)
 
